@@ -1,0 +1,12 @@
+<h1>Profiles</h1>
+
+<% @profiles.each do |profile| %>
+	<h4><%= profile.name %></h4>
+	<% profile.laps.each do |lap| %>
+		<b>Lap Number:</b> <%= lap.lap_number %><br/>
+		<b>Lap Duration:</b> <%= lap.lap_time %><br/>
+		<b>Lap Intensity:</b> <%= lap.lap_intensity %><br/>
+		<b>Lap Speech Text:</b> <%= lap.lap_speech_string %><br/><br/>
+	<% end %>
+	<hr/>
+<% end %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lap_intensity: 1.5
+  profile_id: 1
+  lap_number: 1
+  lap_speech_string: MyString
+  lap_time: 1
+
+two:
+  lap_intensity: 1.5
+  profile_id: 1
+  lap_number: 1
+  lap_speech_string: MyString
+  lap_time: 1
