@@ -17,7 +17,7 @@ task :batch_laps => :environment do
         profile.name = profile_name
         profile.duration = profile_duration
         profile.intensity = profile_intensity
-        profile.version = profile_version_number
+        profile.version_number = profile_version_number
         profile.save
       end
 
